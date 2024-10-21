@@ -1,4 +1,4 @@
-package ex_161024;
+package Oct;
 
 public class Lab_01Arguments {
     public static void main(String[] args){
