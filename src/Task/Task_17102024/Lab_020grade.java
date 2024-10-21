@@ -7,22 +7,29 @@ public class Lab_020grade {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the score:");
         int score=sc.nextInt();
+        char grade='F';
         if(score >= 90 && score <= 100) {
-            System.out.println('A');
+            grade='A';
         }
             else if(score >= 80 && score <= 89){
-                System.out.println('B');
+                grade='B';
 
             }
             else if(score >= 70 && score <= 79) {
-            System.out.println('C');
+            grade='C';
             }
                 else if(score >= 60 && score <= 69){
-                    System.out.println('D');
+                    grade='D';
+                }
+                else if(score<=0||score>100) {
+                    System.out.println("please enter the correct score");
+                    grade='x';
+
                 }
                 else{
-                    System.out.println('F');
+                    grade='F';
                 }
+                System.out.println("your grade is :"+ grade);
         sc.close();
     }
 }

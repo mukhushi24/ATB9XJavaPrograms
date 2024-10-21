@@ -12,13 +12,18 @@ public class Lab_021triangle {
         if(A == B && B == C) {
             System.out.println("Equilateral");
         }
-            else if(A == B || A == C || B == C) {
+        else if(A == B || A == C || B == C) {
             System.out.println("Isosceles");
-            }
-                else{
-                    System.out.println("Scalene");
+        }
+        else if(A<=0||B<=0||C<=0) {
+            System.out.println("Invalid input:side length must be positive");
 
-                }
+
+        }
+        else{
+            System.out.println("Scalene");
+
+        }
         sc.close();
 
 
