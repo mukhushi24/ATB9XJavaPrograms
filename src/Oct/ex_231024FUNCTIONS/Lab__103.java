@@ -12,7 +12,7 @@ public class Lab__103 {
         // }
 
     }
-    static int sum_of_two_numbers(int i,int j){
+    public static int sum_of_two_numbers(int i, int j){
         System.out.println("hello");
         System.out.println("hip hip");
 
