@@ -1,4 +1,4 @@
-package Oct.ex_291024;
+package Oct.ex_291024array;
 
 public class Lab_119Easywaymax {
     public static void main(String[] args) {

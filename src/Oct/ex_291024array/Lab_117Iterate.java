@@ -1,4 +1,4 @@
-package Oct.ex_291024;
+package Oct.ex_291024array;
 
 import java.util.Arrays;
 
