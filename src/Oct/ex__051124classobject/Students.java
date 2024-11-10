@@ -1,4 +1,4 @@
-package Oct.ex__051124;
+package Oct.ex__051124classobject;
 
 public class Students {
     // ATTRIBUTES/DATA MEMBERS/INSTANCE VARIABLES/FIELDS/MEMBER VARIABLES

@@ -1,10 +1,11 @@
-package Oct.ex__051124;
+package Oct.ex__051124classobject;
 
 public class Lab__131 {
     public static void main(String[] args) {
         Students s1= new Students();
         //upper part in main method
         //class loaded
+        //here reference variable points to car which is created in memory
         //new Students(); leads to object creation
         //s1 points to null , default value of non primitive DataTye is null
         //byte,bits=8,64

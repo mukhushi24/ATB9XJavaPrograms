@@ -70,7 +70,7 @@ public class Lab_52 {
 
 
     }
-    static class Dog_5 {
+    class Dog_51 {
         String name;
         int age;
         String breed;
