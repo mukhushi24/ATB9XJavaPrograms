@@ -1,13 +1,6 @@
-package Nov.ex__081124Polymorphism.methodoverloading;
+package Nov.ex__08112024Polymorphism.overloadingg;
 
-public class Lab__141 {
-    //here in overloading has same function with different function
-    //here we have a main class and another class where all the functions
-    // are in the same class
-    //observe the difference
-    //same name with different parameters
-    //we will know the result at compile time,we can predict the result at runtime
-
+public class Lab__144 {
     public static void main(String[] args) {
         MathOperations mathOperations = new MathOperations();
         mathOperations.add(1,2,3);
@@ -45,3 +38,5 @@ class MathOperations {
         return a + b + f;
     }
 }
+
+

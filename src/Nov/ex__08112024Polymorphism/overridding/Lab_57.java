@@ -1,9 +1,7 @@
-package Nov.ex__081124Polymorphism.methodoverridding;
+package Nov.ex__08112024Polymorphism.overridding;
 
-public class Lab__142 {
-    //updating the father function in child with same function name and accessing in main method
-    //different class , where child class extends father
-    //it is runtime ...we will get to know the result at runtime
+public class Lab_57 {
+
     public static void main(String[] args) {
         Hound h1 = new Hound();
         h1.bark();
@@ -27,4 +25,3 @@ class Hound extends Dog{
 
 
 }
-
