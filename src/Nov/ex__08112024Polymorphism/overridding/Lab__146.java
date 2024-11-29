@@ -2,8 +2,8 @@ package Nov.ex__08112024Polymorphism.overridding;
 
 public class Lab__146 {
     public static void main(String[] args) {
-        khushi4 p = new khushi4();
-        p.home();
+        khushi4 k = new khushi4();
+        k.home();
 
         Father f  = new Father();
         f.home();
@@ -14,8 +14,8 @@ public class Lab__146 {
 
         // WebDriver driver = new ChromeDriver();
 
-//        Pramod p1  = new Father();
-//        p1.home();
+//        khushi14 k  = new Father();
+//        k.home();
 
 
 
